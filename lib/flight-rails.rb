@@ -1,7 +1,8 @@
+require "rails"
 require "flight-rails/version"
 
 module Flight
   module Rails
-    # Your code goes here...
+    require "flight-rails/engine"
   end
 end
