@@ -1,6 +1,8 @@
-# Flight::Rails
+# Flight for Rails 3.1 Asset Pipeline
 
-TODO: Write a gem description
+A lightweight, component-based JavaScript framework from Twitter.
+
+Official repo: https://github.com/twitter/bower
 
 ## Installation
 
@@ -18,7 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Remove all Sprockets directives such as //= require jquery from application.js and elsewhere. Instead establish JavaScript dependencies using AMD-style define() and require() calls.
+
+## Dependencies
+
+    $ requirejs-rails
+    $ es5-shim-rails
 
 ## Contributing
 
